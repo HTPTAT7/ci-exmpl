@@ -15,7 +15,7 @@ public class MainPageElemTest {
 	@Test
 	public void testMainPageFormElPresent() {
 		String elExp = "form";
-		String elAct = "form";
+		String elAct = "form1";
 		Assert.assertEquals(elAct, elExp);
 	}
 
