@@ -11,5 +11,12 @@ public class MainPageElemTest {
 		String titleAct = "MainPage";
 		Assert.assertEquals(titleAct, titleExp);
 	}
+	
+	@Test
+	public void testMainPageFormElPresent() {
+		String elExp = "form";
+		String elAct = "form";
+		Assert.assertEquals(elAct, elExp);
+	}
 
 }
